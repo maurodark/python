@@ -30,7 +30,7 @@ def palabra_mas_repetida(diccionario):
     return (palabra_max, frecuencia_max)
 
 # Ejemplo de uso
-cadena = "Esta es una prueba. Esto es solo una prueba. Prueba esto y aquello."
+cadena = "Cuando los pajaros vuelan, pajaros, cuando, vuelan"
 diccionario = contar_palabras(cadena)
 palabra_mas_rep = palabra_mas_repetida(diccionario)
 
