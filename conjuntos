@@ -1,0 +1,10 @@
+lista = [1,2,3,2,3,4,5,6,7,3,5,6,7,3,4,5,6,7,3,5,6,7]
+
+depurar = set(lista)
+print(depurar)
+
+lista = list(depurar)
+print(lista)
+
+lista = list(set(lista)) 
+print(lista)
